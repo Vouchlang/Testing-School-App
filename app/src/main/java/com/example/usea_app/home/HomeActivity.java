@@ -165,7 +165,7 @@ public class HomeActivity extends AppCompatActivity {
             case R.id.noti_off:
                 boolean isClicked;
                 if(isClicked = true){
-                    Toast.makeText(this, "Notification On", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(this, "Notification is On", Toast.LENGTH_SHORT).show();
                 }else{
                     Toast.makeText(this, "Notification Off", Toast.LENGTH_SHORT).show();
                 }
