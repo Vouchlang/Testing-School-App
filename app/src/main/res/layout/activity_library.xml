@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp"
+    tools:context=".library.Library">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <com.denzcoskun.imageslider.ImageSlider
+            android:id="@+id/slide_image"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/sale"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            app:iss_corner_radius="50" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center">
+                <ImageButton
+                    android:id="@+id/btnPic"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/library_pic"
+                    android:background="@color/white"
+                    android:scrollbarTrackVertical="@id/scroll_Pic"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Public Information Center"
+                    android:textColor="@color/black"
+                    />
+            </LinearLayout>
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center">
+                <ImageButton
+                    android:id="@+id/btnAmC"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/library_ac"
+                    android:background="@color/white"
+                    android:scrollbarTrackVertical="@id/scroll_Ac"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="American Corner"
+                    android:textColor="@color/black"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+        <ScrollView
+            android:id="@+id/scroll"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            >
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <LinearLayout
+                    android:id="@+id/scroll_Pic"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginBottom="10dp"
+                    >
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Public Information Center"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        android:background="#001FCA"
+                        android:paddingLeft="10dp"
+                        />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="New Arrivals"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="View all"
+                            android:layout_marginLeft="200dp"
+                            />
+                    </LinearLayout>
+                    <HorizontalScrollView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fillViewport="true"
+                        >
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            >
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/movie"
+                                android:layout_marginRight="5dp"
+                                />
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/movie"
+                                android:layout_marginRight="5dp"
+                                />
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/movie"
+                                android:layout_marginRight="5dp"
+                                />
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/movie"
+                                android:layout_marginRight="5dp"
+                                />
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/movie"
+                                android:layout_marginRight="5dp"
+                                />
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/movie"
+                                />
+                        </LinearLayout>
+                    </HorizontalScrollView>
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/scroll_Ac"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="American Corner"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        android:background="#001FCA"
+                        android:paddingLeft="10dp"
+                        />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="New Arrivals"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="View all"
+                            android:layout_marginLeft="200dp"
+                            />
+                    </LinearLayout>
+                    <HorizontalScrollView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fillViewport="true"
+                        >
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            >
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/movie"
+                                android:layout_marginRight="5dp"
+                                />
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/movie"
+                                android:layout_marginRight="5dp"
+                                />
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/movie"
+                                android:layout_marginRight="5dp"
+                                />
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/movie"
+                                android:layout_marginRight="5dp"
+                                />
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/movie"
+                                android:layout_marginRight="5dp"
+                                />
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/movie"
+                                />
+                        </LinearLayout>
+                    </HorizontalScrollView>
+                </LinearLayout>
+            </LinearLayout>
+
+        </ScrollView>
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

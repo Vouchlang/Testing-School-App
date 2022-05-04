@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp"
+    tools:context=".program.program_faculty.foe.foe_asso.FoE_Asso">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/program_img"
+        />
+
+    <Button
+        android:id="@+id/btnFoE_Asso_Fb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Finance and Banking"
+        android:textColor="@color/black"
+        style="?attr/materialButtonOutlinedStyle"
+        app:strokeColor="#FFC107"
+        />
+    <Button
+        android:id="@+id/btnFoE_Asso_Man"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Management"
+        android:textColor="@color/black"
+        style="?attr/materialButtonOutlinedStyle"
+        app:strokeColor="#FFC107"
+        />
+    <Button
+        android:id="@+id/btnFoE_Asso_Acc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Accounting"
+        android:textColor="@color/black"
+        style="?attr/materialButtonOutlinedStyle"
+        app:strokeColor="#FFC107"
+        />
+    <Button
+        android:id="@+id/btnFoE_Asso_Th"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tourism and Hospitality Management"
+        android:textColor="@color/black"
+        style="?attr/materialButtonOutlinedStyle"
+        app:strokeColor="#FFC107"
+        />
+    <Button
+        android:id="@+id/btnFoE_Asso_Mar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Marketing"
+        android:textColor="@color/black"
+        style="?attr/materialButtonOutlinedStyle"
+        app:strokeColor="#FFC107"
+        />
+
+</LinearLayout>

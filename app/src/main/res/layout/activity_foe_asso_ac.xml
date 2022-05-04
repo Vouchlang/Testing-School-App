@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/FoE_Asso_Ac"
+    android:layout_gravity="center"
+    android:layout_marginRight="15dp"
+    android:layout_marginLeft="15dp"
+    android:layout_marginTop="10dp"
+    android:orientation="vertical"
+    tools:context=".program.program_faculty.foe.foe_asso.FoE_Asso_Ac">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/program_img"
+        />
+
+    <Button
+        android:id="@+id/btnAsso_ac_fm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Freshman"
+        android:textColor="@color/black"
+        style="?attr/materialButtonOutlinedStyle"
+        app:strokeColor="#FFC107"
+        />
+    <Button
+        android:id="@+id/btnAsso_ac_so"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sophomore"
+        android:textColor="@color/black"
+        style="?attr/materialButtonOutlinedStyle"
+        app:strokeColor="#FFC107"
+        />
+    <Button
+        android:id="@+id/btnAsso_ac_ju"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Junior"
+        android:textColor="@color/black"
+        style="?attr/materialButtonOutlinedStyle"
+        app:strokeColor="#FFC107"
+        />
+    <Button
+        android:id="@+id/btnAsso_ac_se"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Senior"
+        android:textColor="@color/black"
+        style="?attr/materialButtonOutlinedStyle"
+        app:strokeColor="#FFC107"
+        />
+
+</LinearLayout>

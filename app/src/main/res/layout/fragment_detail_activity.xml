@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginRight="15dp"
+    android:layout_marginLeft="15dp"
+    tools:context=".home.more.DetailActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/ques"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="text\n\n"
+                android:textSize="12sp"
+                android:textColor="?attr/tc"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="left"/>
+
+            <TextView
+                android:id="@+id/answer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="text"
+                android:fontFamily="@font/karma_light"
+                android:textSize="12sp"
+                android:textColor="?attr/tc"
+                android:layout_gravity="left"
+                android:layout_marginTop="5dp"/>
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>

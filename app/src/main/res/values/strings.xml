@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">USEA-APP</string>
+    <string name="title_activity_bottom">bottom_activity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!--    <string name="default_web_client_id">values.xml</string>-->
+
+    <string name="text1">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less norma distribution of letters, as opposed to using Content here, content here, making it look like readable English.</string>
+    <string name="text2">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less norma distribution of letters, as opposed to using Content here, content here, making it look like readable English.</string>
+    <string name="text3">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less norma distribution of letters, as opposed to using Content here, content here, making it look like readable English.</string>
+    <string name="bachelor">លក្ខខណ្ឌក្នុការចុះឈ្មោះចូលរៀនថ្នាក់បរិញ្ញាបត្រនៅ USEA\n
+-  សញ្ញាបត្របញ្ជាក់ជាប់បាក់ឌុប ២សន្លឹក\n
+-  រូបថត ៣ x ៤ ៤សន្លឹក\n
+-  រូបថត ៤ x ៦ ៣សន្លឹក
+    </string>
+    <string name="associative">លក្ខខណ្ឌក្នុការចុះឈ្មោះចូលរៀនថ្នាក់បរិញ្ញាបត្ររងនៅ USEA\n
+-  សញ្ញាបត្របញ្ជាក់ធ្លាក់បាក់ឌុប ២សន្លឹក\n
+-  រូបថត ៣ x ៤ ៤សន្លឹក\n
+-  រូបថត ៤ x ៦ ៣សន្លឹក
+    </string>
+    <string name="master">
+        លក្ខខណ្ឌក្នុការចុះឈ្មោះចូលរៀនថ្នាក់បណ្ឌិតនៅ USEA\n
+-  សញ្ញាបត្របញ្ជាក់សញ្ញាបត្របរិញ្ញាបត្រ ២សន្លឹក\n
+-  រូបថត ៣ x ៤ ៤សន្លឹក\n
+-  រូបថត ៤ x ៦ ៣សន្លឹក
+    </string>
+    //MH
+    <string name="km_text">Change Language</string>
+    <string name="english">ENGLISH</string>
+    <string name="khmer">KHMER</string>
+    <string name="change_theme_mode">Change Theme Mode</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="social_media">Social Media</string>
+    <string name="application_faq">Application FAQ</string>
+    <string name="frequently_ask_question">Frequently Ask Question</string>
+    <string name="about_us">About US</string>
+    <string name="location">Location</string>
+    <string name="our_vision">Our Vision</string>
+    <string name="location_text">Opposite Angkor High School,\nSiemreap Municipality</string>
+    <string name="vision">1. Vision\n\tUniversity of South-East Asia is a private higher educational institution that is recognized both nationally and internationally for building human capital and a good attitude and that follows closely labor market needs.\n\n2. Mission\n\t It provides broad knowledge, know-how, hard-skills, soft skills and a good attitude to the learners in order to build their capacity in responding to ASEAN and regional labor market needs and to live in a globalized and knowledge-based society.\n\n3. Core Values = USEA\n3.1 Skills\n\t- Broad Knowledge,Technical Skills and Soft Skills\n\t- Innovation and Creativity\n\t- Research and Lifelong Learning\n\t- Self-Confidence\n3.2 Excellence\n\t- Quality of Working, Teaching, Learning and Researching\n\t- Integrity and Virtue\n\t- Responsibility and Accountability\n\t- Communication and Teamwork\n3.3 Social\n\t- National Consciousness\n\t- Social Activities\n\t- Cultural Affection\n\t- Environment Conservation</string>
+    <string-array name="change_language">
+        <item>English</item>
+        <item>Khmer</item>
+    </string-array>
+
+</resources>

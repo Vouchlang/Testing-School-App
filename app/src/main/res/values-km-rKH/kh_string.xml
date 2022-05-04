@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">USEA-APP</string>
+    <string name="km_text">ផ្លាស់ប្ដូរភាសា</string>
+    <string name="khmer">ខ្មែរ</string>
+    <string name="english">អង់គ្លេស</string>
+    <string name="change_theme_mode">ផ្លាស់ប្ដូររូបរាង</string>
+    <string name="dark_mode">ម៉ូតងងឹត</string>
+    <string name="social_media">បណ្ដាញសង្គម</string>
+    <string name="application_faq">ប្រអប់សំណួរ</string>
+    <string name="frequently_ask_question">សំណួរដែលបានសួរញឹកញាប់</string>
+    <string name="about_us">អំពីពួកយើង</string>
+    <string name="our_vision">ចក្ខុវិស័យ</string>
+    <string name="location">ទីតាំង</string>
+    <string name="location_text">ទល់មុខវិទ្យាល័យអង្គ,
+        ក្រុងសៀមរាប,\n
+        ខេត្តសៀមរាប</string>
+    <string name="vision">
+១. ចក្ខុវិស័យ (VISION)\n
+     \t សាកលវិទ្យាល័យ សៅស៍អ៊ីសថ៍អេយសៀ មានចក្ខុវិស័យអភិវឌ្ឍធនធានមនុស្សប្រកបដោយសមត្ថភាព មានគុណធម៌ និងឥរិយាបទល្អឆ្លើយតបទៅនឹងតម្រូវការទីផ្សារការងារជាតិ និង អន្តរជាតិ ដើម្បីឪ្យពួកគេមានសមត្ថភាពពេញលេញអាចធ្វើការងារ ព្រមទាំងរស់នៅក្នុងយុគសម័យសាកលភាវូបន័យកម្ម និងសង្គមពុទ្ធិ សំដៅរួមចំណែកកសាងសង្គមកម្ពុជា ។\n\n
+
+២. បេសកកម្ម (MISSION)\n
+     \t សាកលវិទ្យាល័យ សៅស៍អ៊ីសថ៍អេសៀ មានបេសកកម្មកសាងប្រព័ន្ធអប់រំឧត្ដមសិក្សានិងបណ្ដុះបណ្ដាលបច្ចេកទេសវិជ្ជាជីវៈស្តង់ដាជាតិ និងអន្តរជាតិ ដើម្បីផ្ដល់ចំណេះដឹង ចំណេះធ្វើជំនាញផ្នែករឹង (Technical Skills) ជំនាញផ្នែកទន់ (Soft Skills) និងមានឥរិយាបថល្អ​ដល់អ្នកសិក្សាគ្រប់កម្រិតឆ្លើយតបទៅនឹងទីផ្សារការងារជាតិ និងអន្តរជាតិ ។\n\n
+
+៣. ទស្សនៈអបរំ (Education of Philosophy)\n
+     \t អ្នកកាន់តែជោគជ័យជាមួយ USEA (You are more sucessful with USEA)\n\n
+
+៤. គុណតម្លៃ (CORE VALUE)\n
+៤.១- ជំនាញ (Skills)\n
+    \t ចំណេះដឹងទូលំទូលាយ ជំនាញផ្នែករឹង និងផ្នែកទន់ច្បាស់លាស់ (Broad Knowledge, Technical Skills and Soft Skills)
+នវានុវត្តភាព និងការបង្កើតថ្មី់ (Innovation and Creativity)
+ការស្រាវជ្រាវ និងសិក្សាដោយខ្លួនឯងពេញមួយជីវិត (Research and Lifelong Learning)
+ទំនុកចិត្តលើខ្លួនឯង (Self-Confidence)\n\n
+
+៤.២- ឧត្តមភាព (Excellence)\n
+    \t គុណភាពការងារ បង្រៀន សិក្សា​ និង ស្រាវជ្រាវ (Quality of Working, Teaching, Learning and Research)
+សុច្ចរិភាព និងគុណធម៌ (Integrity and Virtue)
+ការទទួលខុសត្រូវ និងគណនេយ្យភាព ​(Responsibility and Accountability)
+ការប្រាស្រ័យទាក់ទងបើកចំហ និងចេះធ្វើការជាក្រុម (Communication and Teamwork)\n\n
+
+៤.៣- សង្គម  (Social)\n
+- មនសិការជាតិ (National Consciousness)\n
+- ការចូលរួមសកម្មភាពសង្គម (Social Activities)\n
+- ការថែរក្សាវប្បធម៌ជាតិ (Cultural Affection)\n
+- ការថែរក្សាបរិស្ថាន (Environment Conservation)
+    </string>
+</resources>

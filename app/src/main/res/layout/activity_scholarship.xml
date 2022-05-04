@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp"
+    android:layout_marginTop="10dp"
+    tools:context=".scholarship.Scholarship">
+
+    <com.denzcoskun.imageslider.ImageSlider
+        android:id="@+id/slide_image"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:src="@drawable/scholarship_one"
+        android:layout_centerHorizontal="true"
+        app:iss_corner_radius="50" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/round_linearlayout"
+            >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Chemistry: Fully Funded Royal"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Society PhD at Swansea: Molecular"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="-15dp"
+                    android:textSize="20sp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Quantum Materials"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="-15dp"
+                    android:textSize="20sp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:layout_marginTop="-10dp"
+                    >
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/certificate"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="PhD"
+                        android:layout_marginLeft="10dp"
+                        android:textSize="14sp"
+                        />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="-5dp"
+                    >
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/cash"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Full cost of UK tuition fees and an annual stipend"
+                        android:layout_marginLeft="10dp"
+                        android:textSize="14sp"
+                        />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:layout_marginTop="-10dp"
+                    >
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/calendar"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2 March 2022"
+                        android:layout_marginLeft="10dp"
+                        android:textSize="14sp"
+                        />
+                    <Button
+                        android:id="@+id/btn1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:text="Read more"
+                        android:textSize="12sp"
+                        android:textAllCaps="false"
+                        android:layout_marginLeft="130dp"
+                        />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/round_linearlayout"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Engineering: Fully Funded M2A"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="EngD Scholarship at Swansea: "
+                    android:textColor="@color/black"
+                    android:layout_marginTop="-15dp"
+                    android:textSize="20sp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Corrosion Performance"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="-15dp"
+                    android:textSize="20sp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:layout_marginTop="-10dp"
+                    >
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/certificate"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="PhD"
+                        android:layout_marginLeft="10dp"
+                        android:textSize="14sp"
+                        />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="-5dp"
+                    >
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/cash"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Full cost of UK tuition fees and an annual stipend"
+                        android:layout_marginLeft="10dp"
+                        android:textSize="14sp"
+                        />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:layout_marginTop="-10dp"
+                    >
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/calendar"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2 March 2022"
+                        android:layout_marginLeft="10dp"
+                        android:textSize="14sp"
+                        />
+                    <Button
+                        android:id="@+id/btn2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:text="Read more"
+                        android:textSize="12sp"
+                        android:textAllCaps="false"
+                        android:layout_marginLeft="130dp"
+                        />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/round_linearlayout"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Biological Sciences: Fully Funded"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="PhD at Swansea: cleaner fish in"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="-15dp"
+                    android:textSize="20sp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="the salmon industry"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="-15dp"
+                    android:textSize="20sp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:layout_marginTop="-10dp"
+                    >
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/certificate"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="PhD"
+                        android:layout_marginLeft="10dp"
+                        android:textSize="14sp"
+                        />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="-5dp"
+                    >
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/cash"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Full cost of UK tuition fees and an annual stipend"
+                        android:layout_marginLeft="10dp"
+                        android:textSize="14sp"
+                        />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:layout_marginTop="-10dp"
+                    >
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/calendar"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1 April 2022"
+                        android:layout_marginLeft="10dp"
+                        android:textSize="14sp"
+                        />
+                    <Button
+                        android:id="@+id/btn3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:text="Read more"
+                        android:textSize="12sp"
+                        android:textAllCaps="false"
+                        android:layout_marginLeft="130dp"
+                        />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

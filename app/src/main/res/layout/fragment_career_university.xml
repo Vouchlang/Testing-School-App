@@ -1,0 +1,543 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".career.Fragment_career_university"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/Fragment_career_university"
+    android:background="@color/white"
+    >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/careers_img"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Career"
+        android:textSize="24sp"
+        android:layout_marginTop="280dp"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:background="#FFC107"
+        />
+
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="340dp"
+            android:layout_marginBottom="20dp">
+
+            <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="20dp"
+                android:background="#9EBFBFBF">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#888888"
+                    android:textAlignment="center">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="1dp"
+                        android:layout_marginTop="1dp"
+                        android:layout_marginRight="0.5dp"
+                        android:layout_marginBottom="0.5dp"
+                        android:background="#FBE201"
+                        android:gravity="center"
+                        android:text="Sector"
+                        android:textAllCaps="true"
+                        android:textColor="@color/black"
+                        android:textSize="9sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="0.5dp"
+                        android:layout_marginTop="1dp"
+                        android:layout_marginRight="0.5dp"
+                        android:layout_marginBottom="0.5dp"
+                        android:background="#FBE201"
+                        android:gravity="center"
+                        android:text="Position"
+                        android:textAllCaps="true"
+                        android:textColor="@color/black"
+                        android:textSize="9sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="0.5dp"
+                        android:layout_marginTop="1dp"
+                        android:layout_marginRight="0.5dp"
+                        android:layout_marginBottom="0.5dp"
+                        android:background="#FBE201"
+                        android:gravity="center"
+                        android:text="Open Position"
+                        android:textAllCaps="true"
+                        android:textColor="@color/black"
+                        android:textSize="9sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="0.5dp"
+                        android:layout_marginTop="1dp"
+                        android:layout_marginRight="0.5dp"
+                        android:layout_marginBottom="0.5dp"
+                        android:background="#FBE201"
+                        android:gravity="center"
+                        android:text="Location"
+                        android:textAllCaps="true"
+                        android:textColor="@color/black"
+                        android:textSize="9sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="0.5dp"
+                        android:layout_marginTop="1dp"
+                        android:layout_marginRight="1dp"
+                        android:layout_marginBottom="0.5dp"
+                        android:background="#FBE201"
+                        android:gravity="center"
+                        android:text="Deadline"
+                        android:textAllCaps="true"
+                        android:textColor="@color/black"
+                        android:textSize="9sp"
+                        android:textStyle="bold" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#888888">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="1dp"
+                        android:layout_marginTop="0.5dp"
+                        android:layout_marginRight="0.5dp"
+                        android:layout_marginBottom="0.5dp"
+                        android:background="@color/white"
+                        android:gravity="center"
+                        android:padding="2dp"
+                        android:text="Administration"
+                        android:textColor="@color/black"
+                        android:textSize="8sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="0.5dp"
+                        android:layout_marginTop="-7dp"
+                        android:layout_marginRight="0.5dp"
+                        android:layout_marginBottom="0.5dp"
+                        android:background="@color/white"
+                        android:gravity="center"
+                        android:padding="2dp"
+                        android:text="Admin Operation\nOfficer"
+                        android:textColor="@color/black"
+                        android:textSize="8sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="0.5dp"
+                        android:layout_marginTop="0.5dp"
+                        android:layout_marginRight="0.5dp"
+                        android:layout_marginBottom="0.5dp"
+                        android:background="@color/white"
+                        android:gravity="center"
+                        android:padding="2dp"
+                        android:text="1"
+                        android:textColor="@color/black"
+                        android:textSize="8sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="0.5dp"
+                        android:layout_marginTop="0.5dp"
+                        android:layout_marginRight="0.5dp"
+                        android:layout_marginBottom="0.5dp"
+                        android:background="@color/white"
+                        android:gravity="center"
+                        android:padding="2dp"
+                        android:text="Phnom Penh"
+                        android:textColor="@color/black"
+                        android:textSize="8sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="0.5dp"
+                        android:layout_marginTop="0.5dp"
+                        android:layout_marginRight="1dp"
+                        android:layout_marginBottom="0.5dp"
+                        android:background="@color/white"
+                        android:gravity="center"
+                        android:padding="2dp"
+                        android:text="February 08 2022"
+                        android:textColor="@color/black"
+                        android:textSize="8sp"
+                        android:textStyle="bold" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#888888">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="1dp"
+                        android:layout_marginTop="-7dp"
+                        android:layout_marginRight="0.5dp"
+                        android:layout_marginBottom="0.5dp"
+                        android:background="@color/white"
+                        android:gravity="center"
+                        android:padding="2dp"
+                        android:text="Telecom Engineere and Technicians"
+                        android:textColor="@color/black"
+                        android:textSize="8sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="0.5dp"
+                        android:layout_marginTop="-7dp"
+                        android:layout_marginRight="0.5dp"
+                        android:layout_marginBottom="0.5dp"
+                        android:background="@color/white"
+                        android:gravity="center"
+                        android:padding="2dp"
+                        android:text="Radio Network Panning and Optimization Manager"
+                        android:textColor="@color/black"
+                        android:textSize="8sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="0.5dp"
+                        android:layout_marginTop="0.5dp"
+                        android:layout_marginRight="0.5dp"
+                        android:layout_marginBottom="0.5dp"
+                        android:background="@color/white"
+                        android:gravity="center"
+                        android:padding="2dp"
+                        android:text="1"
+                        android:textColor="@color/black"
+                        android:textSize="8sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="0.5dp"
+                        android:layout_marginTop="0.5dp"
+                        android:layout_marginRight="0.5dp"
+                        android:layout_marginBottom="0.5dp"
+                        android:background="@color/white"
+                        android:gravity="center"
+                        android:padding="2dp"
+                        android:text="Phnom Penh"
+                        android:textColor="@color/black"
+                        android:textSize="8sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="0.5dp"
+                        android:layout_marginTop="0.5dp"
+                        android:layout_marginRight="1dp"
+                        android:layout_marginBottom="0.5dp"
+                        android:background="@color/white"
+                        android:gravity="center"
+                        android:padding="2dp"
+                        android:text="February 08 2022"
+                        android:textColor="@color/black"
+                        android:textSize="8sp"
+                        android:textStyle="bold" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#888888">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="1dp"
+                        android:layout_marginTop="-15dp"
+                        android:layout_marginRight="0.5dp"
+                        android:layout_marginBottom="0.5dp"
+                        android:background="@color/white"
+                        android:gravity="center"
+                        android:padding="2dp"
+                        android:text="Database/Data Engineering/Data Analyzing"
+                        android:textColor="@color/black"
+                        android:textSize="8sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="0.5dp"
+                        android:layout_marginRight="0.5dp"
+                        android:layout_marginBottom="0.5dp"
+                        android:background="@color/white"
+                        android:gravity="center"
+                        android:padding="2dp"
+                        android:text="Data Engineering Manager"
+                        android:textColor="@color/black"
+                        android:textSize="8sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="0.5dp"
+                        android:layout_marginTop="0.5dp"
+                        android:layout_marginRight="0.5dp"
+                        android:layout_marginBottom="0.5dp"
+                        android:background="@color/white"
+                        android:gravity="center"
+                        android:padding="2dp"
+                        android:text="1"
+                        android:textColor="@color/black"
+                        android:textSize="8sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="0.5dp"
+                        android:layout_marginTop="0.5dp"
+                        android:layout_marginRight="0.5dp"
+                        android:layout_marginBottom="0.5dp"
+                        android:background="@color/white"
+                        android:gravity="center"
+                        android:padding="2dp"
+                        android:text="Phnom Penh"
+                        android:textColor="@color/black"
+                        android:textSize="8sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="0.5dp"
+                        android:layout_marginTop="0.5dp"
+                        android:layout_marginRight="1dp"
+                        android:layout_marginBottom="0.5dp"
+                        android:background="@color/white"
+                        android:gravity="center"
+                        android:padding="2dp"
+                        android:text="February 08 2022"
+                        android:textColor="@color/black"
+                        android:textSize="8sp"
+                        android:textStyle="bold" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#888888">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="1dp"
+                        android:layout_marginTop="-7dp"
+                        android:layout_marginRight="0.5dp"
+                        android:layout_marginBottom="0.5dp"
+                        android:background="@color/white"
+                        android:gravity="center"
+                        android:padding="2dp"
+                        android:text="Customer Service and Support"
+                        android:textColor="@color/black"
+                        android:textSize="8sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="0.5dp"
+                        android:layout_marginTop="-7dp"
+                        android:layout_marginRight="0.5dp"
+                        android:layout_marginBottom="0.5dp"
+                        android:background="@color/white"
+                        android:gravity="center"
+                        android:padding="2dp"
+                        android:text="Contact Center Agent Intern"
+                        android:textColor="@color/black"
+                        android:textSize="8sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="0.5dp"
+                        android:layout_marginTop="0.5dp"
+                        android:layout_marginRight="0.5dp"
+                        android:layout_marginBottom="0.5dp"
+                        android:background="@color/white"
+                        android:gravity="center"
+                        android:padding="2dp"
+                        android:text="1"
+                        android:textColor="@color/black"
+                        android:textSize="8sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="0.5dp"
+                        android:layout_marginTop="0.5dp"
+                        android:layout_marginRight="0.5dp"
+                        android:layout_marginBottom="0.5dp"
+                        android:background="@color/white"
+                        android:gravity="center"
+                        android:padding="2dp"
+                        android:text="Phnom Penh"
+                        android:textColor="@color/black"
+                        android:textSize="8sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="0.5dp"
+                        android:layout_marginTop="0.5dp"
+                        android:layout_marginRight="1dp"
+                        android:layout_marginBottom="0.5dp"
+                        android:background="@color/white"
+                        android:gravity="center"
+                        android:padding="2dp"
+                        android:text="February 08 2022"
+                        android:textColor="@color/black"
+                        android:textSize="8sp"
+                        android:textStyle="bold" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#888888"
+                    android:textAlignment="center">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="1dp"
+                        android:layout_marginRight="0.5dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="@color/white"
+                        android:gravity="center"
+                        android:padding="2dp"
+                        android:text="Product Development"
+                        android:textColor="@color/black"
+                        android:textSize="9sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="0.5dp"
+                        android:layout_marginTop="-8.5dp"
+                        android:layout_marginRight="0.5dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="@color/white"
+                        android:gravity="center"
+                        android:padding="2dp"
+                        android:text="Postpaid Proposition Manager"
+                        android:textColor="@color/black"
+                        android:textSize="9sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="0.5dp"
+                        android:layout_marginTop="0.5dp"
+                        android:layout_marginRight="0.5dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="@color/white"
+                        android:gravity="center"
+                        android:padding="2dp"
+                        android:text="1"
+                        android:textColor="@color/black"
+                        android:textSize="9sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="0.5dp"
+                        android:layout_marginTop="0.5dp"
+                        android:layout_marginRight="0.5dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="@color/white"
+                        android:gravity="center"
+                        android:padding="2dp"
+                        android:text="Siem Reab"
+                        android:textColor="@color/black"
+                        android:textSize="9sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="0.5dp"
+                        android:layout_marginTop="0.5dp"
+                        android:layout_marginRight="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="@color/white"
+                        android:gravity="center"
+                        android:padding="2dp"
+                        android:text="February 28 2022"
+                        android:textColor="@color/black"
+                        android:textSize="9sp"
+                        android:textStyle="bold" />
+                </TableRow>
+            </TableLayout>
+        </ScrollView>
+
+    </HorizontalScrollView>
+
+
+</RelativeLayout>

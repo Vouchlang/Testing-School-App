@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp"
+    android:layout_marginTop="10dp"
+    tools:context=".program.program_faculty.Program_Faculty">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/program_img"
+        />
+    <Button
+        android:id="@+id/btnFoE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Faculty of Economic, Business and Tourism"
+        android:textColor="@color/black"
+        android:layout_marginTop="10dp"
+        style="?attr/materialButtonOutlinedStyle"
+        app:strokeColor="#FFC107"
+        />
+
+    <Button
+        android:id="@+id/btnFoA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Faculty of Art, Humanities and Education"
+        android:textColor="@color/black"
+        style="?attr/materialButtonOutlinedStyle"
+        app:strokeColor="#FFC107"
+        />
+
+    <Button
+        android:id="@+id/btnFoSc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Faculty of Science and \nTechnology"
+        android:textColor="@color/black"
+        style="?attr/materialButtonOutlinedStyle"
+        app:strokeColor="#FFC107"
+        />
+
+    <Button
+        android:id="@+id/btnFoSo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Faculty of Social Science \nand Law"
+        android:textColor="@color/black"
+        style="?attr/materialButtonOutlinedStyle"
+        app:strokeColor="#FFC107"
+        />
+
+</LinearLayout>

@@ -1,0 +1,663 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.usea_app">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".MyApp"
+        android:allowBackup="true"
+        android:icon="@drawable/usea"
+        android:label="USEA APP"
+        android:roundIcon="@mipmap/ic_icon_foreground"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.USEAAPP">
+        <activity
+            android:name=".home.more.ActivityFaq"
+            android:exported="true"/>
+        <activity
+            android:name=".home.more.DetailActivity"
+            android:exported="true"/>
+        <activity
+            android:name=".home.more.OurVision"
+            android:exported="true"/>
+        <activity
+            android:name=".registration.Registration"
+            android:exported="true"
+            android:parentActivityName=".home.HomeActivity"/>
+        <activity
+            android:name=".library.Library"
+            android:exported="true"
+            android:parentActivityName=".home.HomeActivity" />
+        <activity
+            android:name=".scholarship.Intent_Btn_Three"
+            android:exported="true"
+            android:parentActivityName=".scholarship.Scholarship" />
+        <activity
+            android:name=".scholarship.Intent_Btn_Two"
+            android:exported="true"
+            android:parentActivityName=".scholarship.Scholarship" />
+        <activity
+            android:name=".scholarship.Intent_Btn_One"
+            android:exported="true"
+            android:parentActivityName=".scholarship.Scholarship" />
+        <activity
+            android:name=".scholarship.Scholarship"
+            android:exported="true"
+            android:parentActivityName=".home.HomeActivity" />
+        <activity
+            android:name=".program.program_faculty.foe.foe_mast.FoE_Mast_ITM_Se"
+            android:exported="true"
+            android:parentActivityName=".program.program_faculty.foe.foe_mast.FoE_Mast_ITM" />
+        <activity
+            android:name=".program.program_faculty.foe.foe_mast.FoE_Mast_ITM_Ju"
+            android:exported="true"
+            android:parentActivityName=".program.program_faculty.foe.foe_mast.FoE_Mast_ITM" />
+        <activity
+            android:name=".program.program_faculty.foe.foe_mast.FoE_Mast_ITM_So"
+            android:exported="true"
+            android:parentActivityName=".program.program_faculty.foe.foe_mast.FoE_Mast_ITM" />
+        <activity
+            android:name=".program.program_faculty.foe.foe_mast.FoE_Mast_ITM_Fm"
+            android:exported="true"
+            android:parentActivityName=".program.program_faculty.foe.foe_mast.FoE_Mast_ITM" />
+        <activity
+            android:name=".program.program_faculty.foe.foe_mast.FoE_Mast_ITM"
+            android:exported="true"
+            android:parentActivityName=".program.program_faculty.foe.foe_mast.FoE_Mast" />
+        <activity
+            android:name=".program.program_faculty.foe.foe_mast.FoE_Mast_IM_Se"
+            android:exported="true"
+            android:parentActivityName=".program.program_faculty.foe.foe_mast.FoE_Mast_IM" />
+        <activity
+            android:name=".program.program_faculty.foe.foe_mast.FoE_Mast_IM_Ju"
+            android:exported="true"
+            android:parentActivityName=".program.program_faculty.foe.foe_mast.FoE_Mast_IM" />
+        <activity
+            android:name=".program.program_faculty.foe.foe_mast.FoE_Mast_IM_So"
+            android:exported="true"
+            android:parentActivityName=".program.program_faculty.foe.foe_mast.FoE_Mast_IM" />
+        <activity
+            android:name=".program.program_faculty.foe.foe_mast.FoE_Mast_IM_Fm"
+            android:exported="true"
+            android:parentActivityName=".program.program_faculty.foe.foe_mast.FoE_Mast_IM" />
+        <activity
+            android:name=".program.program_faculty.foe.foe_mast.FoE_Mast_IM"
+            android:exported="true"
+            android:parentActivityName=".program.program_faculty.foe.foe_mast.FoE_Mast" />
+        <activity
+            android:name=".program.program_faculty.foe.foe_mast.FoE_Mast_IB_Se"
+            android:exported="true"
+            android:parentActivityName=".program.program_faculty.foe.foe_mast.FoE_Mast_IB" />
+        <activity
+            android:name=".program.program_faculty.foe.foe_mast.FoE_Mast_IB_Ju"
+            android:exported="true"
+            android:parentActivityName=".program.program_faculty.foe.foe_mast.FoE_Mast_IB" />
+        <activity
+            android:name=".program.program_faculty.foe.foe_mast.FoE_Mast_IB_So"
+            android:exported="true"
+            android:parentActivityName=".program.program_faculty.foe.foe_mast.FoE_Mast_IB" />
+        <activity
+            android:name=".program.program_faculty.foe.foe_mast.FoE_Mast_IB_Fm"
+            android:exported="true"
+            android:parentActivityName=".program.program_faculty.foe.foe_mast.FoE_Mast_IB" />
+        <activity
+            android:name=".program.program_faculty.foe.foe_mast.FoE_Mast_IB"
+            android:exported="true"
+            android:parentActivityName=".program.program_faculty.foe.foe_mast.FoE_Mast" />
+        <activity
+            android:name=".program.program_faculty.foe.foe_mast.FoE_Mast_Aud_Se"
+            android:exported="true"
+            android:parentActivityName=".program.program_faculty.foe.foe_mast.FoE_Mast_Aud" />
+        <activity
+            android:name=".program.program_faculty.foe.foe_mast.FoE_Mast_Aud_Ju"
+            android:exported="true"
+            android:parentActivityName=".program.program_faculty.foe.foe_mast.FoE_Mast_Aud" />
+        <activity
+            android:name=".program.program_faculty.foe.foe_mast.FoE_Mast_Aud_So"
+            android:exported="true"
+            android:parentActivityName=".program.program_faculty.foe.foe_mast.FoE_Mast_Aud" />
+        <activity
+            android:name=".program.program_faculty.foe.foe_mast.FoE_Mast_Aud_Fm"
+            android:exported="true"
+            android:parentActivityName=".program.program_faculty.foe.foe_mast.FoE_Mast_Aud" />
+        <activity
+            android:name=".program.program_faculty.foe.foe_mast.FoE_Mast_Aud"
+            android:exported="true"
+            android:parentActivityName=".program.program_faculty.foe.foe_mast.FoE_Mast" />
+        <activity
+            android:name=".program.program_faculty.foe.foe_mast.FoE_Mast_TH_Se"
+            android:exported="true"
+            android:parentActivityName=".program.program_faculty.foe.foe_mast.FoE_Mast_TH" />
+        <activity
+            android:name=".program.program_faculty.foe.foe_mast.FoE_Mast_TH_Ju"
+            android:exported="true"
+            android:parentActivityName=".program.program_faculty.foe.foe_mast.FoE_Mast_TH" />
+        <activity
+            android:name=".program.program_faculty.foe.foe_mast.FoE_Mast_TH_So"
+            android:exported="true"
+            android:parentActivityName=".program.program_faculty.foe.foe_mast.FoE_Mast_TH" />
+        <activity
+            android:name=".program.program_faculty.foe.foe_mast.FoE_Mast_TH_Fm"
+            android:exported="true"
+            android:parentActivityName=".program.program_faculty.foe.foe_mast.FoE_Mast_TH" />
+        <activity
+            android:name=".program.program_faculty.foe.foe_mast.FoE_Mast_TH"
+            android:exported="true"
+            android:parentActivityName=".program.program_faculty.foe.foe_mast.FoE_Mast" />
+        <activity
+            android:name=".program.program_faculty.foe.foe_mast.FoE_Mast_Acc_Se"
+            android:exported="true"
+            android:parentActivityName=".program.program_faculty.foe.foe_mast.FoE_Mast_Acc" />
+        <activity
+            android:name=".program.program_faculty.foe.foe_mast.FoE_Mast_Acc_Ju"
+            android:exported="true"
+            android:parentActivityName=".program.program_faculty.foe.foe_mast.FoE_Mast_Acc" />
+        <activity
+            android:name=".program.program_faculty.foe.foe_mast.FoE_Mast_Acc_So"
+            android:exported="true"
+            android:parentActivityName=".program.program_faculty.foe.foe_mast.FoE_Mast_Acc" />
+        <activity
+            android:name=".program.program_faculty.foe.foe_mast.FoE_Mast_Acc_Fm"
+            android:exported="true"
+            android:parentActivityName=".program.program_faculty.foe.foe_mast.FoE_Mast_Acc" />
+        <activity
+            android:name=".program.program_faculty.foe.foe_mast.FoE_Mast_Acc"
+            android:exported="true"
+            android:parentActivityName=".program.program_faculty.foe.foe_mast.FoE_Mast" />
+        <activity
+            android:name=".program.program_faculty.foe.foe_mast.FoE_Mast_Man_Se"
+            android:exported="true"
+            android:parentActivityName=".program.program_faculty.foe.foe_mast.FoE_Mast_Man" />
+        <activity
+            android:name=".program.program_faculty.foe.foe_mast.FoE_Mast_Man_Ju"
+            android:exported="true"
+            android:parentActivityName=".program.program_faculty.foe.foe_mast.FoE_Mast_Man" />
+        <activity
+            android:name=".program.program_faculty.foe.foe_mast.FoE_Mast_Man_So"
+            android:exported="true"
+            android:parentActivityName=".program.program_faculty.foe.foe_mast.FoE_Mast_Man" />
+        <activity
+            android:name=".program.program_faculty.foe.foe_mast.FoE_Mast_Man_Fm"
+            android:exported="true"
+            android:parentActivityName=".program.program_faculty.foe.foe_mast.FoE_Mast_Man" />
+        <activity
+            android:name=".program.program_faculty.foe.foe_mast.FoE_Mast_Man"
+            android:exported="true"
+            android:parentActivityName=".program.program_faculty.foe.foe_mast.FoE_Mast" />
+        <activity
+            android:name=".program.program_faculty.foe.foe_mast.FoE_Mast_FB_Se"
+            android:exported="true"
+            android:parentActivityName=".program.program_faculty.foe.foe_mast.FoE_Mast_FB" />
+        <activity
+            android:name=".program.program_faculty.foe.foe_mast.FoE_Mast_FB_Ju"
+            android:exported="true"
+            android:parentActivityName=".program.program_faculty.foe.foe_mast.FoE_Mast_FB" />
+        <activity
+            android:name=".program.program_faculty.foe.foe_mast.FoE_Mast_FB_So"
+            android:exported="true"
+            android:parentActivityName=".program.program_faculty.foe.foe_mast.FoE_Mast_FB" />
+        <activity
+            android:name=".program.program_faculty.foe.foe_mast.FoE_Mast_FB_Fm"
+            android:exported="true"
+            android:parentActivityName=".program.program_faculty.foe.foe_mast.FoE_Mast_FB" />
+        <activity
+            android:name=".program.program_faculty.foe.foe_mast.FoE_Mast_FB"
+            android:exported="true"
+            android:parentActivityName=".program.program_faculty.foe.foe_mast.FoE_Mast" />
+        <activity
+            android:name=".program.program_faculty.foe.foe_mast.FoE_Mast_IE_Se"
+            android:exported="true"
+            android:parentActivityName=".program.program_faculty.foe.foe_mast.FoE_Mast_IE" />
+        <activity
+            android:name=".program.program_faculty.foe.foe_mast.FoE_Mast_IE_Ju"
+            android:exported="true"
+            android:parentActivityName=".program.program_faculty.foe.foe_mast.FoE_Mast_IE" />
+        <activity
+            android:name=".program.program_faculty.foe.foe_mast.FoE_Mast_IE_So"
+            android:exported="true"
+            android:parentActivityName=".program.program_faculty.foe.foe_mast.FoE_Mast_IE" />
+        <activity
+            android:name=".program.program_faculty.foe.foe_mast.FoE_Mast_IE_Fm"
+            android:exported="true"
+            android:parentActivityName=".program.program_faculty.foe.foe_mast.FoE_Mast_IE" />
+        <activity
+            android:name=".program.program_faculty.foe.foe_mast.FoE_Mast_IE"
+            android:exported="true"
+            android:parentActivityName=".program.program_faculty.foe.foe_mast.FoE_Mast" />
+        <activity
+            android:name=".program.program_faculty.foe.foe_mast.FoE_Mast"
+            android:exported="true"
+            android:parentActivityName=".program.program_faculty.foe.Program_FoE" />
+        <activity
+            android:name=".program.program_faculty.foe.foe_bach.FoE_Bach_EvM_Se"
+            android:exported="true"
+            android:parentActivityName=".program.program_faculty.foe.foe_bach.FoE_Bach_EvM" />
+        <activity
+            android:name=".program.program_faculty.foe.foe_bach.FoE_Bach_EvM_Ju"
+            android:exported="true"
+            android:parentActivityName=".program.program_faculty.foe.foe_bach.FoE_Bach_EvM" />
+        <activity
+            android:name=".program.program_faculty.foe.foe_bach.FoE_Bach_EvM_So"
+            android:exported="true"
+            android:parentActivityName=".program.program_faculty.foe.foe_bach.FoE_Bach_EvM" />
+        <activity
+            android:name=".program.program_faculty.foe.foe_bach.FoE_Bach_EvM_Fm"
+            android:exported="true"
+            android:parentActivityName=".program.program_faculty.foe.foe_bach.FoE_Bach_EvM" />
+        <activity
+            android:name=".program.program_faculty.foe.foe_bach.FoE_Bach_EvM"
+            android:exported="true"
+            android:parentActivityName=".program.program_faculty.foe.foe_bach.FoE_Bach" />
+        <activity
+            android:name=".program.program_faculty.foe.foe_bach.FoE_Bach_EcT_Se"
+            android:exported="true"
+            android:parentActivityName=".program.program_faculty.foe.foe_bach.FoE_Bach_EcT" />
+        <activity
+            android:name=".program.program_faculty.foe.foe_bach.FoE_Bach_EcT_Ju"
+            android:exported="true"
+            android:parentActivityName=".program.program_faculty.foe.foe_bach.FoE_Bach_EcT" />
+        <activity
+            android:name=".program.program_faculty.foe.foe_bach.FoE_Bach_EcT_So"
+            android:exported="true"
+            android:parentActivityName=".program.program_faculty.foe.foe_bach.FoE_Bach_EcT" />
+        <activity
+            android:name=".program.program_faculty.foe.foe_bach.FoE_Bach_EcT_Fm"
+            android:exported="true"
+            android:parentActivityName=".program.program_faculty.foe.foe_bach.FoE_Bach_EcT" />
+        <activity
+            android:name=".program.program_faculty.foe.foe_bach.FoE_Bach_EcT"
+            android:exported="true"
+            android:parentActivityName=".program.program_faculty.foe.foe_bach.FoE_Bach" />
+        <activity
+            android:name=".program.program_faculty.foe.foe_bach.FoE_Bach_THM_Se"
+            android:exported="true"
+            android:parentActivityName=".program.program_faculty.foe.foe_bach.FoE_Bach_THM" />
+        <activity
+            android:name=".program.program_faculty.foe.foe_bach.FoE_Bach_THM_Ju"
+            android:exported="true"
+            android:parentActivityName=".program.program_faculty.foe.foe_bach.FoE_Bach_THM" />
+        <activity
+            android:name=".program.program_faculty.foe.foe_bach.FoE_Bach_THM_So"
+            android:exported="true"
+            android:parentActivityName=".program.program_faculty.foe.foe_bach.FoE_Bach_THM" />
+        <activity
+            android:name=".program.program_faculty.foe.foe_bach.FoE_Bach_THM_Fm"
+            android:exported="true"
+            android:parentActivityName=".program.program_faculty.foe.foe_bach.FoE_Bach_THM" />
+        <activity
+            android:name=".program.program_faculty.foe.foe_bach.FoE_Bach_THM"
+            android:exported="true"
+            android:parentActivityName=".program.program_faculty.foe.foe_bach.FoE_Bach" />
+        <activity
+            android:name=".program.program_faculty.foe.foe_bach.FoE_Bach_CHM_Se"
+            android:exported="true"
+            android:parentActivityName=".program.program_faculty.foe.foe_bach.FoE_Bach_CHM" />
+        <activity
+            android:name=".program.program_faculty.foe.foe_bach.FoE_Bach_CHM_Ju"
+            android:exported="true"
+            android:parentActivityName=".program.program_faculty.foe.foe_bach.FoE_Bach_CHM" />
+        <activity
+            android:name=".program.program_faculty.foe.foe_bach.FoE_Bach_CHM_So"
+            android:exported="true"
+            android:parentActivityName=".program.program_faculty.foe.foe_bach.FoE_Bach_CHM" />
+        <activity
+            android:name=".program.program_faculty.foe.foe_bach.FoE_Bach_CHM_Fm"
+            android:exported="true"
+            android:parentActivityName=".program.program_faculty.foe.foe_bach.FoE_Bach_CHM" />
+        <activity
+            android:name=".program.program_faculty.foe.foe_bach.FoE_Bach_CHM"
+            android:exported="true"
+            android:parentActivityName=".program.program_faculty.foe.foe_bach.FoE_Bach" />
+        <activity
+            android:name=".program.program_faculty.foe.foe_bach.FoE_Bach_ITM_Se"
+            android:exported="true"
+            android:parentActivityName=".program.program_faculty.foe.foe_bach.FoE_Bach_ITM" />
+        <activity
+            android:name=".program.program_faculty.foe.foe_bach.FoE_Bach_ITM_Ju"
+            android:exported="true"
+            android:parentActivityName=".program.program_faculty.foe.foe_bach.FoE_Bach_ITM" />
+        <activity
+            android:name=".program.program_faculty.foe.foe_bach.FoE_Bach_ITM_So"
+            android:exported="true"
+            android:parentActivityName=".program.program_faculty.foe.foe_bach.FoE_Bach_ITM" />
+        <activity
+            android:name=".program.program_faculty.foe.foe_bach.FoE_Bach_ITM_Fm"
+            android:exported="true"
+            android:parentActivityName=".program.program_faculty.foe.foe_bach.FoE_Bach_ITM" />
+        <activity
+            android:name=".program.program_faculty.foe.foe_bach.FoE_Bach_ITM"
+            android:exported="true"
+            android:parentActivityName=".program.program_faculty.foe.foe_bach.FoE_Bach" />
+        <activity
+            android:name=".program.program_faculty.foe.foe_bach.FoE_Bach_IntB_Se"
+            android:exported="true"
+            android:parentActivityName=".program.program_faculty.foe.foe_bach.FoE_Bach_IntB" />
+        <activity
+            android:name=".program.program_faculty.foe.foe_bach.FoE_Bach_IntB_Ju"
+            android:exported="true"
+            android:parentActivityName=".program.program_faculty.foe.foe_bach.FoE_Bach_IntB" />
+        <activity
+            android:name=".program.program_faculty.foe.foe_bach.FoE_Bach_IntB_So"
+            android:exported="true"
+            android:parentActivityName=".program.program_faculty.foe.foe_bach.FoE_Bach_IntB" />
+        <activity
+            android:name=".program.program_faculty.foe.foe_bach.FoE_Bach_IntB_Fm"
+            android:exported="true"
+            android:parentActivityName=".program.program_faculty.foe.foe_bach.FoE_Bach_IntB" />
+        <activity
+            android:name=".program.program_faculty.foe.foe_bach.FoE_Bach_IntB"
+            android:exported="true"
+            android:parentActivityName=".program.program_faculty.foe.foe_bach.FoE_Bach" />
+        <activity
+            android:name=".program.program_faculty.foe.foe_bach.FoE_Bach_En_Se"
+            android:exported="true"
+            android:parentActivityName=".program.program_faculty.foe.foe_bach.FoE_Bach_En" />
+        <activity
+            android:name=".program.program_faculty.foe.foe_bach.FoE_Bach_En_Ju"
+            android:exported="true"
+            android:parentActivityName=".program.program_faculty.foe.foe_bach.FoE_Bach_En" />
+        <activity
+            android:name=".program.program_faculty.foe.foe_bach.FoE_Bach_En_So"
+            android:exported="true"
+            android:parentActivityName=".program.program_faculty.foe.foe_bach.FoE_Bach_En" />
+        <activity
+            android:name=".program.program_faculty.foe.foe_bach.FoE_Bach_En_Fm"
+            android:exported="true"
+            android:parentActivityName=".program.program_faculty.foe.foe_bach.FoE_Bach_En" />
+        <activity
+            android:name=".program.program_faculty.foe.foe_bach.FoE_Bach_En"
+            android:exported="true"
+            android:parentActivityName=".program.program_faculty.foe.foe_bach.FoE_Bach" />
+        <activity
+            android:name=".program.program_faculty.foe.foe_bach.FoE_Bach_IntE_Se"
+            android:exported="true"
+            android:parentActivityName=".program.program_faculty.foe.foe_bach.FoE_Bach_IntE" />
+        <activity
+            android:name=".program.program_faculty.foe.foe_bach.FoE_Bach_IntE_Ju"
+            android:exported="true"
+            android:parentActivityName=".program.program_faculty.foe.foe_bach.FoE_Bach_IntE" />
+        <activity
+            android:name=".program.program_faculty.foe.foe_bach.FoE_Bach_IntE_So"
+            android:exported="true"
+            android:parentActivityName=".program.program_faculty.foe.foe_bach.FoE_Bach_IntE" />
+        <activity
+            android:name=".program.program_faculty.foe.foe_bach.FoE_Bach_IntE_Fm"
+            android:exported="true"
+            android:parentActivityName=".program.program_faculty.foe.foe_bach.FoE_Bach_IntE" />
+        <activity
+            android:name=".program.program_faculty.foe.foe_bach.FoE_Bach_IntE"
+            android:exported="true"
+            android:parentActivityName=".program.program_faculty.foe.foe_bach.FoE_Bach" />
+        <activity
+            android:name=".program.program_faculty.foe.foe_bach.FoE_Bach_IndE_Se"
+            android:exported="true"
+            android:parentActivityName=".program.program_faculty.foe.foe_bach.FoE_Bach_IndE" />
+        <activity
+            android:name=".program.program_faculty.foe.foe_bach.FoE_Bach_IndE_Ju"
+            android:exported="true"
+            android:parentActivityName=".program.program_faculty.foe.foe_bach.FoE_Bach_IndE" />
+        <activity
+            android:name=".program.program_faculty.foe.foe_bach.FoE_Bach_IndE_So"
+            android:exported="true"
+            android:parentActivityName=".program.program_faculty.foe.foe_bach.FoE_Bach_IndE" />
+        <activity
+            android:name=".program.program_faculty.foe.foe_bach.FoE_Bach_IndE_Fm"
+            android:exported="true"
+            android:parentActivityName=".program.program_faculty.foe.foe_bach.FoE_Bach_IndE" />
+        <activity
+            android:name=".program.program_faculty.foe.foe_bach.FoE_Bach_IndE"
+            android:exported="true"
+            android:parentActivityName=".program.program_faculty.foe.foe_bach.FoE_Bach" />
+        <activity
+            android:name=".program.program_faculty.foe.foe_bach.FoE_Bach_Fb_Se"
+            android:exported="true"
+            android:parentActivityName=".program.program_faculty.foe.foe_bach.FoE_Bach_Fb" />
+        <activity
+            android:name=".program.program_faculty.foe.foe_bach.FoE_Bach_Fb_Ju"
+            android:exported="true"
+            android:parentActivityName=".program.program_faculty.foe.foe_bach.FoE_Bach_Fb" />
+        <activity
+            android:name=".program.program_faculty.foe.foe_bach.FoE_Bach_Fb_So"
+            android:exported="true"
+            android:parentActivityName=".program.program_faculty.foe.foe_bach.FoE_Bach_Fb" />
+        <activity
+            android:name=".program.program_faculty.foe.foe_bach.FoE_Bach_Fb_Fm"
+            android:exported="true"
+            android:parentActivityName=".program.program_faculty.foe.foe_bach.FoE_Bach_Fb" />
+        <activity
+            android:name=".program.program_faculty.foe.foe_bach.FoE_Bach_Fb"
+            android:exported="true"
+            android:parentActivityName=".program.program_faculty.foe.foe_bach.FoE_Bach" />
+        <activity
+            android:name=".program.program_faculty.foe.foe_bach.FoE_Bach_Acc_Se"
+            android:exported="true"
+            android:parentActivityName=".program.program_faculty.foe.foe_bach.FoE_Bach_Acc" />
+        <activity
+            android:name=".program.program_faculty.foe.foe_bach.FoE_Bach_Acc_Ju"
+            android:exported="true"
+            android:parentActivityName=".program.program_faculty.foe.foe_bach.FoE_Bach_Acc" />
+        <activity
+            android:name=".program.program_faculty.foe.foe_bach.FoE_Bach_Acc_So"
+            android:exported="true"
+            android:parentActivityName=".program.program_faculty.foe.foe_bach.FoE_Bach_Acc" />
+        <activity
+            android:name=".program.program_faculty.foe.foe_bach.FoE_Bach_Acc_Fm"
+            android:exported="true"
+            android:parentActivityName=".program.program_faculty.foe.foe_bach.FoE_Bach_Acc" />
+        <activity
+            android:name=".program.program_faculty.foe.foe_bach.FoE_Bach_Acc"
+            android:exported="true"
+            android:parentActivityName=".program.program_faculty.foe.foe_bach.FoE_Bach" />
+        <activity
+            android:name=".program.program_faculty.foe.foe_bach.FoE_Bach_Mar_Se"
+            android:exported="true"
+            android:parentActivityName=".program.program_faculty.foe.foe_bach.FoE_Bach_Mar" />
+        <activity
+            android:name=".program.program_faculty.foe.foe_bach.FoE_Bach_Mar_Ju"
+            android:exported="true"
+            android:parentActivityName=".program.program_faculty.foe.foe_bach.FoE_Bach_Mar" />
+        <activity
+            android:name=".program.program_faculty.foe.foe_bach.FoE_Bach_Mar_So"
+            android:exported="true"
+            android:parentActivityName=".program.program_faculty.foe.foe_bach.FoE_Bach_Mar" />
+        <activity
+            android:name=".program.program_faculty.foe.foe_bach.FoE_Bach_Mar_Fm"
+            android:exported="true"
+            android:parentActivityName=".program.program_faculty.foe.foe_bach.FoE_Bach_Mar" />
+        <activity
+            android:name=".program.program_faculty.foe.foe_bach.FoE_Bach_Mar"
+            android:exported="true"
+            android:parentActivityName=".program.program_faculty.foe.foe_bach.FoE_Bach" />
+        <activity
+            android:name=".program.program_faculty.foe.foe_bach.FoE_Bach_Ma_Se"
+            android:exported="true"
+            android:parentActivityName=".program.program_faculty.foe.foe_bach.FoE_Bach_Ma" />
+        <activity
+            android:name=".program.program_faculty.foe.foe_bach.FoE_Bach_Ma_Ju"
+            android:exported="true"
+            android:parentActivityName=".program.program_faculty.foe.foe_bach.FoE_Bach_Ma" />
+        <activity
+            android:name=".program.program_faculty.foe.foe_bach.FoE_Bach_Ma_So"
+            android:exported="true"
+            android:parentActivityName=".program.program_faculty.foe.foe_bach.FoE_Bach_Ma" />
+        <activity
+            android:name=".program.program_faculty.foe.foe_bach.FoE_Bach_Ma_Fm"
+            android:exported="true"
+            android:parentActivityName=".program.program_faculty.foe.foe_bach.FoE_Bach_Ma" />
+        <activity
+            android:name=".program.program_faculty.foe.foe_bach.FoE_Bach_Ma"
+            android:exported="true"
+            android:parentActivityName=".program.program_faculty.foe.foe_bach.FoE_Bach" />
+        <activity
+            android:name=".program.program_faculty.foe.foe_bach.FoE_Bach"
+            android:exported="true"
+            android:parentActivityName=".program.program_faculty.foe.Program_FoE" />
+        <activity
+            android:name=".program.program_faculty.foe.foe_asso.FoE_Asso_Mar_Se"
+            android:exported="true"
+            android:parentActivityName=".program.program_faculty.foe.foe_asso.FoE_Asso_Mar" />
+        <activity
+            android:name=".program.program_faculty.foe.foe_asso.FoE_Asso_Mar_Ju"
+            android:exported="true"
+            android:parentActivityName=".program.program_faculty.foe.foe_asso.FoE_Asso_Mar" />
+        <activity
+            android:name=".program.program_faculty.foe.foe_asso.FoE_Asso_Mar_So"
+            android:exported="true"
+            android:parentActivityName=".program.program_faculty.foe.foe_asso.FoE_Asso_Mar" />
+        <activity
+            android:name=".program.program_faculty.foe.foe_asso.FoE_Asso_Mar_Fm"
+            android:exported="true"
+            android:parentActivityName=".program.program_faculty.foe.foe_asso.FoE_Asso_Mar" />
+        <activity
+            android:name=".program.program_faculty.foe.foe_asso.FoE_Asso_Mar"
+            android:exported="true"
+            android:parentActivityName=".program.program_faculty.foe.foe_asso.FoE_Asso" />
+        <activity
+            android:name=".program.program_faculty.foe.foe_asso.FoE_Asso_To_Se"
+            android:exported="true"
+            android:parentActivityName=".program.program_faculty.foe.foe_asso.FoE_Asso_To" />
+        <activity
+            android:name=".program.program_faculty.foe.foe_asso.FoE_Asso_To_Ju"
+            android:exported="true"
+            android:parentActivityName=".program.program_faculty.foe.foe_asso.FoE_Asso_To" />
+        <activity
+            android:name=".program.program_faculty.foe.foe_asso.FoE_Asso_To_So"
+            android:exported="true"
+            android:parentActivityName=".program.program_faculty.foe.foe_asso.FoE_Asso_To" />
+        <activity
+            android:name=".program.program_faculty.foe.foe_asso.FoE_Asso_To_Fm"
+            android:exported="true"
+            android:parentActivityName=".program.program_faculty.foe.foe_asso.FoE_Asso_To" />
+        <activity
+            android:name=".program.program_faculty.foe.foe_asso.FoE_Asso_To"
+            android:exported="true"
+            android:parentActivityName=".program.program_faculty.foe.foe_asso.FoE_Asso" />
+        <activity
+            android:name=".program.program_faculty.foe.foe_asso.FoE_Asso_Ac_Se"
+            android:exported="true"
+            android:parentActivityName=".program.program_faculty.foe.foe_asso.FoE_Asso_Ac" />
+        <activity
+            android:name=".program.program_faculty.foe.foe_asso.FoE_Asso_Ac_Ju"
+            android:exported="true"
+            android:parentActivityName=".program.program_faculty.foe.foe_asso.FoE_Asso_Ac" />
+        <activity
+            android:name=".program.program_faculty.foe.foe_asso.FoE_Asso_Ac_So"
+            android:exported="true"
+            android:parentActivityName=".program.program_faculty.foe.foe_asso.FoE_Asso_Ac" />
+        <activity
+            android:name=".program.program_faculty.foe.foe_asso.FoE_Asso_Ac_Fm"
+            android:exported="true"
+            android:parentActivityName=".program.program_faculty.foe.foe_asso.FoE_Asso_Ac" />
+        <activity
+            android:name=".program.program_faculty.foe.foe_asso.FoE_Asso_Ac"
+            android:exported="true"
+            android:parentActivityName=".program.program_faculty.foe.foe_asso.FoE_Asso" />
+        <activity
+            android:name=".program.program_faculty.foe.foe_asso.FoE_Asso_Ma_Se"
+            android:exported="true"
+            android:parentActivityName=".program.program_faculty.foe.foe_asso.FoE_Asso_Ma" />
+        <activity
+            android:name=".program.program_faculty.foe.foe_asso.FoE_Asso_Ma_Ju"
+            android:exported="true"
+            android:parentActivityName=".program.program_faculty.foe.foe_asso.FoE_Asso_Ma" />
+        <activity
+            android:name=".program.program_faculty.foe.foe_asso.FoE_Asso_Ma_So"
+            android:exported="true"
+            android:parentActivityName=".program.program_faculty.foe.foe_asso.FoE_Asso_Ma" />
+        <activity
+            android:name=".program.program_faculty.foe.foe_asso.FoE_Asso_Ma_Fm"
+            android:exported="true"
+            android:parentActivityName=".program.program_faculty.foe.foe_asso.FoE_Asso_Ma" />
+        <activity
+            android:name=".program.program_faculty.foe.foe_asso.FoE_Asso_Ma"
+            android:exported="true"
+            android:parentActivityName=".program.program_faculty.foe.foe_asso.FoE_Asso" />
+        <activity
+            android:name=".program.program_faculty.foe.foe_asso.FoE_Asso_Fb_Se"
+            android:exported="true"
+            android:parentActivityName=".program.program_faculty.foe.foe_asso.FoE_Asso_Fb" />
+        <activity
+            android:name=".program.program_faculty.foe.foe_asso.FoE_Asso_Fb_Ju"
+            android:exported="true"
+            android:parentActivityName=".program.program_faculty.foe.foe_asso.FoE_Asso_Fb" />
+        <activity
+            android:name=".program.program_faculty.foe.foe_asso.FoE_Asso_Fb_So"
+            android:exported="true"
+            android:parentActivityName=".program.program_faculty.foe.foe_asso.FoE_Asso_Fb" />
+        <activity
+            android:name=".program.program_faculty.foe.foe_asso.FoE_Asso_Fb_Fm"
+            android:exported="true"
+            android:parentActivityName=".program.program_faculty.foe.foe_asso.FoE_Asso_Fb" />
+        <activity
+            android:name=".program.program_faculty.foe.foe_asso.FoE_Asso_Fb"
+            android:exported="true"
+            android:parentActivityName=".program.program_faculty.foe.foe_asso.FoE_Asso" />
+        <activity
+            android:name=".program.program_faculty.foe.foe_asso.FoE_Asso"
+            android:exported="true"
+            android:parentActivityName=".program.program_faculty.foe.Program_FoE" />
+        <activity
+            android:name=".program.program_faculty.foso.Program_FoSo"
+            android:exported="true"
+            android:parentActivityName=".program.program_faculty.Program_Faculty" />
+        <activity
+            android:name=".program.program_faculty.fosc.Program_FoSc"
+            android:exported="true"
+            android:parentActivityName=".program.program_faculty.Program_Faculty" />
+        <activity
+            android:name=".program.program_faculty.foe.Program_FoE"
+            android:exported="true"
+            android:parentActivityName=".program.program_faculty.Program_Faculty" />
+        <activity
+            android:name=".program.program_faculty.Program_Faculty"
+            android:exported="true"
+            android:parentActivityName=".program.Program" />
+        <activity
+            android:name=".program.Program"
+            android:exported="true"
+            android:parentActivityName=".home.HomeActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+        <activity
+            android:name=".career.Career_Home"
+            android:exported="true"
+            android:parentActivityName=".home.HomeActivity" />
+        <activity
+            android:name=".sign_in.gmail.ConnGoogle"
+            android:exported="false" />
+        <activity
+            android:name=".sign_in.otp.VerifyOTPActivity"
+            android:exported="false" />
+        <activity
+            android:name=".sign_in.otp.SendOTPActivity"
+            android:exported="false" />
+        <activity
+            android:name=".sign_in.sign_in"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+        <activity
+            android:name=".news_event.NewsEvent"
+            android:exported="true"
+            android:parentActivityName=".home.HomeActivity" />
+        <activity
+            android:name=".home.HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:layout_marginTop="10dp"
+    android:layout_marginRight="15dp"
+    android:layout_marginLeft="15dp"
+    android:orientation="vertical"
+    tools:context=".program.program_faculty.foso.Program_FoSo">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/program_img"
+        />
+
+    <Button
+        android:id="@+id/btnAsso_foe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Associate Degree"
+        android:textColor="@color/black"
+        style="?attr/materialButtonOutlinedStyle"
+        app:strokeColor="#FFC107"
+        />
+    <Button
+        android:id="@+id/btnBachelor_foe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bachelor’s Degree"
+        android:textColor="@color/black"
+        style="?attr/materialButtonOutlinedStyle"
+        app:strokeColor="#FFC107"
+        />
+    <Button
+        android:id="@+id/btnMaster_foe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Master’s  Degree"
+        android:textColor="@color/black"
+        style="?attr/materialButtonOutlinedStyle"
+        app:strokeColor="#FFC107"
+        />
+
+</LinearLayout>

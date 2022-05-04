@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/freshman"
+        android:title="Freshman"
+        />
+    <item
+        android:id="@+id/sophomore"
+        android:title="Sophomore"
+        />
+    <item
+        android:id="@+id/junior"
+        android:title="Junior"
+        />
+    <item
+        android:id="@+id/senior"
+        android:title="Senior"
+        />
+
+</menu>
