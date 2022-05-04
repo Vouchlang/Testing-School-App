@@ -136,24 +136,6 @@ public class VerifyOTPActivity extends AppCompatActivity {
 
             }
         });
-//        inputCode6.addTextChangedListener(new TextWatcher() {
-//            @Override
-//            public void beforeTextChanged(CharSequence charSequence, int i, int i1, int i2) {
-//
-//            }
-//
-//            @Override
-//            public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {
-//                if(inputCode6.getText().toString().length() == 1){
-//                    return;
-//                }
-//            }
-//
-//            @Override
-//            public void afterTextChanged(Editable editable) {
-//
-//            }
-//        });
 
         setupOTPInputs();
 
