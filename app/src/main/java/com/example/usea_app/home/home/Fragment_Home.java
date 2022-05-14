@@ -20,6 +20,7 @@ import com.example.usea_app.career.Career_Home;
 import com.example.usea_app.library.Library;
 import com.example.usea_app.news_event.NewsEvent;
 import com.example.usea_app.program.Program;
+import com.example.usea_app.registration.Registration;
 import com.example.usea_app.scholarship.Scholarship;
 
 import java.util.ArrayList;
@@ -58,7 +59,8 @@ public class Fragment_Home extends Fragment {
         register.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(getActivity(), "Fragment Register", Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(getActivity(), Registration.class);
+                startActivity(intent);
             }
         });
         program.setOnClickListener(new View.OnClickListener() {
