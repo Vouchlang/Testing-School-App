@@ -1,7 +1,10 @@
 package com.example.usea_app.home.account;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 
+import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
@@ -13,17 +16,22 @@ import android.widget.Button;
 import android.widget.TextView;
 
 import com.example.usea_app.R;
+import com.github.drjacky.imagepicker.ImagePicker;
+
+import de.hdodenhof.circleimageview.CircleImageView;
 
 public class GetInfo extends Fragment {
     TextView txtUsername, txtDateOfBirth, txtPlaceFrom, txtTitleJob, txtPhoneNum;
     String Username, DateOfBirth, PlaceFrom, TitleJob, PhoneNum, setUsername, setDateOfBirth, setPlaceFrom, setTitleJob, setPhoneNum;
     Button btnEdit;
+    CircleImageView btnProfile;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_get_info, container, false);
 
+        btnProfile = view.findViewById(R.id.btnProfile);
         txtUsername = view.findViewById(R.id.txtUsername);
         txtDateOfBirth = view.findViewById(R.id.txtDateOfBirth);
         txtPlaceFrom = view.findViewById(R.id.txtPlaceFrom);
@@ -43,6 +51,15 @@ public class GetInfo extends Fragment {
         txtPlaceFrom.setText(setPlaceFrom);
         txtTitleJob.setText(setTitleJob);
         txtPhoneNum.setText(setPhoneNum);
+
+        btnProfile.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                ImagePicker.Companion.with(getActivity())
+                        .maxResultSize(1080, 1080)
+                        .start();
+            }
+        });
 
         btnEdit.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -73,5 +90,12 @@ public class GetInfo extends Fragment {
         });
 
         return view;
+    }
+
+    @Override
+    public void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+        Uri uri = data.getData();
+        btnProfile.setImageURI(uri);
     }
 }

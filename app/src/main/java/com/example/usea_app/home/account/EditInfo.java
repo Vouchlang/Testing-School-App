@@ -18,17 +18,21 @@ import androidx.fragment.app.FragmentTransaction;
 import com.example.usea_app.R;
 import com.example.usea_app.SharePreferenceUtils;
 
+import de.hdodenhof.circleimageview.CircleImageView;
+
 public class EditInfo extends Fragment {
 
     EditText editUsername, editDateOfBirth,editPlaceFrom, editTitleJob, editPhoneNum;
     Button btnSave;
     String username, dateofbirth, placefrom, jobtitle, phonenum, setusername, setdateofbirth, setplacefrom, setjobtitle, setphonenum;
+    CircleImageView btnProfile;
 
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.edit_activity,container,false);
 
+        btnProfile = view.findViewById(R.id.btnProfile);
         editUsername = view.findViewById(R.id.EditUsername);
         editDateOfBirth = view.findViewById(R.id.EditDateOfBirth);
         editPlaceFrom = view.findViewById(R.id.EditPlaceFrom);
@@ -48,6 +52,7 @@ public class EditInfo extends Fragment {
         editPlaceFrom.setText(placefrom);
         editTitleJob.setText(jobtitle);
         editPhoneNum.setText(phonenum);
+//        btnProfile.setImageResource(R.drawable.male);
 
         btnSave.setOnClickListener(new View.OnClickListener() {
             @Override

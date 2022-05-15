@@ -3,6 +3,7 @@ package com.example.usea_app.home.account;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.net.Uri;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -19,26 +20,41 @@ import androidx.fragment.app.FragmentTransaction;
 
 import com.example.usea_app.R;
 import com.example.usea_app.SharePreferenceUtils;
+import com.github.drjacky.imagepicker.ImagePicker;
 
 import java.util.Date;
+
+import de.hdodenhof.circleimageview.CircleImageView;
 
 public class Fragment_Account extends Fragment {
 
     TextView txtUsername, txtDateOfBirth, txtPlaceFrom, txtTitleJob, txtPhoneNum;
     String Username, DateOfBirth, PlaceFrom, TitleJob, PhoneNum, setUsername, setDateOfBirth, setPlaceFrom, setTitleJob, setPhoneNum;
     Button btnEdit;
+    CircleImageView btnProfile;
 
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_account,container,false);
 
+        btnProfile = view.findViewById(R.id.btnProfile);
         txtUsername = view.findViewById(R.id.txtUsername);
         txtDateOfBirth = view.findViewById(R.id.txtDateOfBirth);
         txtPlaceFrom = view.findViewById(R.id.txtPlaceFrom);
         txtTitleJob = view.findViewById(R.id.txtTitleJob);
         txtPhoneNum = view.findViewById(R.id.txtPhoneNum);
         btnEdit = view.findViewById(R.id.btnEdit);
+
+        btnProfile.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                ImagePicker.Companion.with(getActivity())
+                        .maxResultSize(1080, 1080)
+                        .start();
+            }
+        });
+
 
         Bundle bundle = getArguments();
         if(bundle != null) {
@@ -79,8 +95,6 @@ public class Fragment_Account extends Fragment {
                 TitleJob = txtTitleJob.getText().toString();
                 PhoneNum = txtPhoneNum.getText().toString();
 
-
-
                 Bundle bundle = new Bundle();
                 bundle.putString("txtUsername", Username);
                 bundle.putString("txtDateOfBirth", DateOfBirth);
@@ -101,15 +115,10 @@ public class Fragment_Account extends Fragment {
 
         return view;
     }
-//
-//    @Override
-//    public void onResume() {
-//        super.onResume();
-//
-//        SharePreferenceUtils.getInstance().getString("txtUsername", "");
-//        SharePreferenceUtils.getInstance().getString("txtDateOfBirth", "");
-//        SharePreferenceUtils.getInstance().getString("txtPlaceFrom", "PlaceFrom");
-//        SharePreferenceUtils.getInstance().getString("txtTitleJob", "TitleJob");
-//        SharePreferenceUtils.getInstance().getString("txtPhoneNum", "PhoneNum");
-//    }
+    @Override
+    public void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+        Uri uri = data.getData();
+        btnProfile.setImageURI(uri);
+    }
 }

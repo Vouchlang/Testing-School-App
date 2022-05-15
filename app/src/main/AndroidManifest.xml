@@ -11,6 +11,7 @@
         android:label="USEA APP"
         android:roundIcon="@mipmap/ic_icon_foreground"
         android:supportsRtl="true"
+        android:requestLegacyExternalStorage="true"
         android:theme="@style/Theme.USEAAPP">
         <activity
             android:name=".home.more.ActivityFaq"
